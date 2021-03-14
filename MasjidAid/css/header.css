@@ -1,0 +1,60 @@
+#header{
+    height: 100%;
+    background-image: url(../images/m3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    color: #fff;
+    animation-name: zoomIn;
+    animation-duration: 2s;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    animation-name: slideIn;
+    animation-duration: 2s;
+    animation-delay: 2.2s;
+    
+}
+
+@keyframes zoomIn {
+    from {width: 0px; height: 0px;}
+    to {width: 100%; height: 100%;}
+}
+@keyframes slideIn {
+    from {top: -1500px}
+    to {top: 0px}
+}
+.navbar-brand {
+    margin-left: 24px;
+    margin-top: 18px;
+    flex-grow: 1;
+    font-size: 36px;
+    transition: all 1.5s;
+}
+.nav-links {
+    flex-grow: 1;
+    list-style: none;
+    display: flex;
+}
+.nav-item {
+    flex-grow: 1;
+    font-size: 18px;
+}
+.header-section {
+    width: 500px;
+    margin-left: 24px;
+    margin-top: 630px;
+    position: relative;
+    animation-name: slideIn;
+    animation-duration: 2s;
+    animation-delay: .5s;
+}
+.navbar-brand:hover {
+    font-size: 50px
+}
+.header-text {
+    font-size: 36px;
+}
