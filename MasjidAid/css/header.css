@@ -58,3 +58,19 @@
 .header-text {
     font-size: 36px;
 }
+.nav-icon {
+    display: none;
+    height: 60px;
+    margin-top: 18px;
+}
+.nav-close{
+    display: none
+}
+@media screen and (max-width: 600px) {
+    .nav-icon {
+        display: block
+    }
+    .nav-links {
+        display: none
+    }
+}
